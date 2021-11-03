@@ -11,7 +11,7 @@ LDFLAGS =
 APPNAME = myapp
 EXT = .cpp
 SRCDIR = ./
-OBJDIR = obj
+OBJDIR = ./
 
 ############## Do not change anything from here downwards! #############
 SRC = $(wildcard $(SRCDIR)/*$(EXT))
